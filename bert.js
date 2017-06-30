@@ -18,11 +18,11 @@ class BertAlert {
     ];
 
     this.icons = {
-      default: 'fa-bell',
-      success: 'fa-check',
-      info: 'fa-info',
-      warning: 'fa-warning',
-      danger: 'fa-remove'
+      default: 'fas fa-bell',
+      success: 'fas fa-check',
+      info: 'fas fa-info-circle',
+      warning: 'fas fa-exclamation-triangle',
+      danger: 'fas fa-minus-circle'
     };
 
     this.defaults = {

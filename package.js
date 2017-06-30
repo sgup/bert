@@ -1,8 +1,8 @@
 Package.describe({
-  name: 'themeteorchef:bert',
-  version: '2.1.2',
+  name: 'shridhar:bert-fontawesome5',
+  version: '2.1.4',
   summary: 'A client side, multi-style alerts system for Meteor.',
-  git: 'http://github.com/themeteorchef/bert',
+  git: 'https://github.com/sgup/bert-fontawesome5',
   documentation: 'README.md'
 });
 
@@ -15,7 +15,6 @@ Package.onUse( function( api ) {
     'session',
     'jquery',
     'fourseven:scss@4.5.4',
-    'fortawesome:fontawesome@4.4.0'
   ], 'client');
 
   api.addFiles([
@@ -33,6 +32,6 @@ Package.onUse( function( api ) {
 
 Package.onTest(function (api) {
   api.use( [ 'tinytest', 'session', 'jquery' ] );
-  api.use( 'themeteorchef:bert' );
+  api.use( 'shridhar:bert-fontawesome5' );
   api.addFiles( 'tests/client.js', 'client' );
 });

@@ -1,5 +1,5 @@
 ### Bert
-Bert is a client side, multi-style alerts system for Meteor.
+Bert is a client side, multi-style alerts system for Meteor. (Modified to support newest Font Awesome version)
 
 ![Say what again!](https://cl.ly/0d3O121h021t/bert.jpg)
 
